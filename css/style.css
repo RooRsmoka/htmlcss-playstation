@@ -2,13 +2,19 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.text-blk {
+.text-black {
     color: #000;
 }
 
-.text-wht {
+.text-white {
     color: #fff;
 }
+
+.text-grey {
+    color: #666666;
+}
+
+/* ************************** */
 
 nav {
     background-color: #fff;
@@ -20,14 +26,29 @@ nav {
     padding: 300px 0 50px 0;
 }
 
+.jumbo-image-2 {
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg) 50% 50%;
+}
+
 .bg-black {
     background-color: #000;
+}
+
+.bg-grey {
+    background-color: #BEBCBB;
+}
+
+.bg-darkgrey {
+    background-color: #1F1F1F;
+}
+
+.bg-darkblue {
+    background-color: #161C3B;
 }
 
 .logo-sony img {
     height: 15px;
 }
-
 
 .image-box {
     border-radius: 18px;
@@ -53,4 +74,19 @@ nav {
 
 .btn-info {
     background-color: #2D64E6;
+}
+
+.btn-plus {
+    background-color: #D9DADC;
+    color: #2D64E6;
+}
+
+.btn-now {
+    background-color: #fff;
+    color: #000;
+}
+
+.fa-registered {
+    font-size: 12px;
+    vertical-align: top;
 }
