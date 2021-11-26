@@ -2,14 +2,22 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.txt-wht {
+.text-blk {
+    color: #000;
+}
+
+.text-wht {
     color: #fff;
+}
+
+nav {
+    background-color: #fff;
 }
 
 .jumbo-image-1 {
     margin-top: 107px;
     background: url(../img/jumbo-bg.png) 50% 40%;
-    padding: 250px 0 100px 0;
+    padding: 300px 0 50px 0;
 }
 
 .bg-black {
@@ -18,6 +26,16 @@ body {
 
 .logo-sony img {
     height: 15px;
+}
+
+
+.image-box {
+    border-radius: 18px;
+    overflow: hidden;
+}
+
+.no-limits {
+    color: #2D64E6;
 }
 
 .btn {
@@ -31,4 +49,8 @@ body {
 
 .btn-login {
     background-color: #363636;
+}
+
+.btn-info {
+    background-color: #2D64E6;
 }
