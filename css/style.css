@@ -1,6 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+}
+
+p {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 38px;
 }
 
 .text-black {
@@ -15,20 +22,8 @@ body {
     color: #666666;
 }
 
-/* ************************** */
-
-nav {
-    background-color: #fff;
-}
-
-.jumbo-image-1 {
-    margin-top: 107px;
-    background: url(../img/jumbo-bg.png) 50% 40%;
-    padding: 300px 0 50px 0;
-}
-
-.jumbo-image-2 {
-    background: url(../img/it-takes-two-hero-banner-desktop.jpg) 50% 50%;
+.text-blue {
+    color: #2D64E6;
 }
 
 .bg-black {
@@ -43,38 +38,63 @@ nav {
     background-color: #1F1F1F;
 }
 
+.bg-blue {
+    background-color: #00439C;
+}
+
 .bg-darkblue {
     background-color: #161C3B;
 }
 
-.logo-sony img {
-    height: 15px;
+ul {
+    list-style: none;
 }
 
-.image-box {
-    border-radius: 18px;
-    overflow: hidden;
+a {
+    text-decoration: none;
 }
 
-.no-limits {
-    color: #2D64E6;
-}
+/* ************************** */
 
-.btn {
-    border-radius: 20px;
+/* Buttons */
+.btn-ps {
+    border-width: 3px;
+    border-radius: 40px;
     color: #fff;
+    font-weight: 600;
+}
+
+.btn-ps:hover {
+    box-shadow: inset 0 0 0 2px #000;
+}
+
+.btn-login {
+    background-color: #363636;
+    margin-left: 10px;
+}
+
+.btn-login:hover {
+    color: #fff;
+    box-shadow: inset 0 0 0 2px #fff;
+}
+
+.btn-search img {
+    height: 30px;
+    margin-left: 20px;
 }
 
 .btn-buy {
     background-color: #CD3D0F;
 } 
 
-.btn-login {
-    background-color: #363636;
+.btn-discover {
+    background-color: #2D64E6;
 }
 
-.btn-info {
+.btn-discover:hover {
     background-color: #2D64E6;
+    box-shadow: inset 0 0 0 2px #fff;
+    color: #fff;
 }
 
 .btn-plus {
@@ -82,43 +102,130 @@ nav {
     color: #2D64E6;
 }
 
+.btn-plus:hover {
+    box-shadow: inset 0 0 0 2px #BEBCBB;
+    color: #2D64E6;
+}
+
 .btn-now {
     background-color: #fff;
     color: #000;
 }
+/* / Buttons */
 
+/* Header + Navbar */
+.logo-sony img {
+    height: 15px;
+}
+
+nav {
+    background-color: #fff;
+}
+
+nav.dropdown-menu.show {
+    display: flex;   
+}
+
+#navbarDropdown {
+    color: #000;
+}
+
+#navbarDropdown:hover {
+    color: #2C64E5;
+}
+/* / Header + Navbar */
+
+/* Jumbotrons */
+.jumbo-image-1 {
+    background: url(../img/jumbo-bg.png) no-repeat 50% 50%;
+    background-size: cover;
+    margin-top: 107px;
+    padding: 350px 0 50px 0;
+}
+
+.jumbo-image-2 {
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+.logo-game {
+    width: 70%;
+}
+/* / Jumbotrons */
+
+/* Vetrina primo piano */
+.image-box a img {
+    border-radius: 18px;
+    border: 3px solid transparent;
+    padding: 3px;
+    position: relative;
+    top: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.image-box a:hover img {
+    border-color: #2C64E5;
+    top: -10px;
+}
+
+.image-box a:active img {
+    border-color: #2C64E5;
+    top: -10px;
+}
+/* / Vetrina primo piano */
+
+/* Prodotti PS5 */
+.product-box {
+    opacity: 0.5;
+    border-bottom: 3px solid transparent;
+    transition: all 0.4s ease-in-out;
+}
+
+.product-box:hover {
+    border-color: #2C64E5;
+    opacity: 1;
+}
+
+.fa-trademark {
+    font-size: 12px;
+    font-weight: 600;
+    vertical-align: text-top;
+}
+/* / Prodotti PS5 */
+
+/* Nuove uscite */
+.game-box {
+    border-radius: 18px;
+    overflow: hidden;
+}
+/* / Nuove uscite */
+
+/* Altri prodotti */
 .fa-registered {
     font-size: 12px;
     vertical-align: top;
 }
+/* / Altri prodotti */
 
-footer {
-    background-color: #00439C;
-}
-
-footer ul li {
-    list-style: none;
-}
-
-footer ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
+/* Footer */
 .language-icon {
     height: 15px;
     line-height: 15px;
-    color: #fff;
 }
 
 .language-icon img {
     margin-right: 10px;
 }
 
+.logo-sie { 
+    width: 200px;
+}
+/* / Footer */
 
+/********************************************/
 @media only screen and (min-width: 0) and (max-width: 767px) {
 
-    .container {
+    .bg-darkblue,.bg-grey {
         padding: 48px 0;
     }
 
